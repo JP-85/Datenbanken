@@ -17,3 +17,28 @@ Dieses Repository wurde im Rahmen des Universitätskurses **Relationale Datenban
 ### Repository herunterladen
 ```bash
 git clone https://github.com/JP-85/Datenbanken.git
+```
+
+## Aufbau / Struktur  
+
+```text
+Datenbanken/
+├─ uebung/
+│  ├─ u01/
+│  │  ├─ schema.sql      # Tabellen, Constraints
+│  │  ├─ seed.sql        # Beispieldaten
+│  │  ├─ queries.sql     # Lösungen / Abfragen
+│  │  └─ aufgabe.md      # Aufgabenstellung
+│ ...
+│  └─ uXX/
+│     ├─ schema.sql
+│     ├─ seed.sql
+│     ├─ queries.sql
+│     └─ aufgabe.md
+│
+└─ vorlesung/
+   ├─ 01_thema.sql
+  ...
+   └─ XX_thema.sql
+```
+
